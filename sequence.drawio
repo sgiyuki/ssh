@@ -1,0 +1,265 @@
+<mxfile host="65bd71144e">
+    <diagram id="YIgi7_muFFUUJ23B8nkJ" name="ページ1">
+        <mxGraphModel dx="3147" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="27" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="1190" as="sourcePoint"/>
+                        <mxPoint x="580" y="40" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="1190" as="sourcePoint"/>
+                        <mxPoint x="820" y="75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="クライアント" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="1. 事前情報共有" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="1. 事前情報共有" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="サーバ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="2. 一時鍵ペア生成&lt;div&gt;(鍵交換用)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;2. 一時鍵ペア生成&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;(鍵交換用)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="交C秘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="160" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="交C公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="160" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="交S秘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="160" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="交S公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="160" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="3. 公開鍵送信&lt;div&gt;(交C公)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="交C公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="200" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;3. 公開鍵受信&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;(交C公)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="4. 署名生成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="交C公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="400" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="交S秘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="400" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="4-1. 共通鍵生成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="共通鍵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="400" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="4-2. ハッシュ計算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="共通鍵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="480" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="事前&lt;div&gt;情報&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="80" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="事前&lt;div&gt;情報&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="480" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="交C公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="480" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="認公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="480" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=8.666666666666666;endSize=5.311111111111111;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="800" y="419.77" as="sourcePoint"/>
+                        <mxPoint x="830" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="&amp;nbsp;署名&lt;div&gt;対象&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="480" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="交S公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="845" y="480" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="事前&lt;div&gt;情報&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="80" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="4-3. 署名生成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="署名対象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="560" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="認秘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="560" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=8.666666666666666;endSize=5.311111111111111;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="802.5" y="579.5999999999999" as="sourcePoint"/>
+                        <mxPoint x="832.5" y="579.8299999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF33FF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="560" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="5. 公開鍵送信&lt;div&gt;(交S公、認公)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="交S公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="640" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="認公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="640" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF33FF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="640" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=8.666666666666666;endSize=5.311111111111111;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="962.5" y="499.5" as="sourcePoint"/>
+                        <mxPoint x="992.5" y="499.73" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="360" y="100" as="sourcePoint"/>
+                        <mxPoint x="480" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="660" as="sourcePoint"/>
+                        <mxPoint x="360" y="660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="事前&lt;div&gt;情報&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="40" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="260" as="sourcePoint"/>
+                        <mxPoint x="480" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="交S公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="600" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="認公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="600" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF33FF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="600" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="5. 公開鍵受信&lt;div&gt;(交S公、認公)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="6. 認証鍵確認" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="720" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;known_hosts&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry y="720" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="認公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="725" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="7. 署名検証" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="7-1. 共通鍵生成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="880" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="交C秘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="880" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="交S公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="880" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=8.666666666666666;endSize=5.311111111111111;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="901.04" as="sourcePoint"/>
+                        <mxPoint x="10" y="901.27" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="共通鍵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="880" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="7-2. ハッシュ計算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="共通鍵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="960" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="事前&lt;div&gt;情報&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="960" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="交C公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="-5" y="960" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="交S公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="960" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="認公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="-115" y="960" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=8.666666666666666;endSize=5.311111111111111;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-130" y="979.76" as="sourcePoint"/>
+                        <mxPoint x="-160" y="979.99" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="署名&lt;div&gt;対象&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="-230" y="960" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="7-3. 署名検証" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1040" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="署名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF33FF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="1040" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="認公" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="1040" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=8.666666666666666;endSize=5.311111111111111;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="1060" as="sourcePoint"/>
+                        <mxPoint x="10" y="1060.23" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="署名&lt;div&gt;対象&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="-55" y="1040" width="55" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fillColor=#CCCCCC;" parent="1" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="-170" y="1020" as="sourcePoint"/>
+                        <mxPoint x="-70" y="1060" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="8. 暗号化通信開始" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="8. 暗号化通信開始" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="1120" width="120" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

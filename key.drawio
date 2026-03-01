@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="YIgi7_muFFUUJ23B8nkJ" name="ページ1">
+        <mxGraphModel dx="1031" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="鍵交換用のクライアントの公開鍵(交C公)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="-80" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="鍵交換用のクライアントの秘密鍵(交C秘)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="-160" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="鍵交換用のサーバの公開鍵(交S公)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="-80" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="鍵交換用のサーバの秘密鍵(交S秘)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="-160" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="ホスト認証用の公開鍵(認公)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="-240" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="ホスト認証用の秘密鍵(認秘)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="-320" width="241" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
